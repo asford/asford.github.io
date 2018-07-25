@@ -1,0 +1,45 @@
+name:               "Alexander Ford"
+description:        "A minimalistic jekyll theme for humans"
+
+url:                "http://asford.info"
+author:             "asford"
+email:              "a.sewall.ford+github.io@gmail.com"
+gravatar_hash:      "7bd0aab15df5e24b5a57daf49f5e12ba"
+github:             "asford"
+linkedin:           "alexander-ford-981b244/"
+
+background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          :year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+  - name:           "About"
+    href:           "about"
+  - name:           "Download"
+    href:           "releases"
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
