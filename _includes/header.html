@@ -1,9 +1,5 @@
 <header class="bloghead">
     <h1 class="bloghead-title">
-      <div><a href="{{ site.url }}/">{{ site.name }}</a>&nbsp;/&nbsp;</div>
-      <div>
-        {% for nav in site.nav limit:1 %}<a href="{{ site.url }}/{{ nav.href }}">{{ nav.name }}</a>{% endfor %}
-        {% for nav in site.nav offset:1 %}&nbsp;/&nbsp;<a href="{{ site.url }}/{{ nav.href }}">{{ nav.name }}</a>{% endfor %}
-      </div>
+      <div><a href="{{ site.url }}/">{{ site.name }}</a>&nbsp;/&nbsp;{{ page.title }}</div>
     </h1>
 </header>

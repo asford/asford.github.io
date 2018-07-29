@@ -3,6 +3,14 @@ layout: index
 ---
 
 <div class="content">
+    <div>
+      {% for nav in site.nav %}
+      <h2>
+        <a href="{{ site.url }}/{{ nav.href }}">{{ nav.name }}</a>
+      </h2>
+      {% endfor %}
+    </div>
+
     {% if site.posts.size == 0 %}
     <h2>No post found</h2> {% else %} {% for post in paginator.posts %}
     <div class="post-list">
