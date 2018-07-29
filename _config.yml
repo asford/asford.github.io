@@ -1,10 +1,8 @@
 name:               "Alex Ford"
-description:        "A minimalistic jekyll theme for humans"
 
 url:                "http://asford.info"
 author:             "asford"
 email:              "a.sewall.ford+github.io@gmail.com"
-gravatar_hash:      "7bd0aab15df5e24b5a57daf49f5e12ba"
 github:             "asford"
 linkedin:           "alexander-ford-981b244/"
 
@@ -21,8 +19,6 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "about"
-  - name:           "Projects"
-    href:           "projects"
 
 sass:
   style:            :compressed
