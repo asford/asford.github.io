@@ -1,4 +1,4 @@
-name:               "Alexander Ford"
+name:               "Alex Ford"
 description:        "A minimalistic jekyll theme for humans"
 
 url:                "http://asford.info"
@@ -8,7 +8,7 @@ gravatar_hash:      "7bd0aab15df5e24b5a57daf49f5e12ba"
 github:             "asford"
 linkedin:           "alexander-ford-981b244/"
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "/resources/20160223_102437_E-M5_2230352.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
@@ -21,8 +21,8 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "about"
-  - name:           "Download"
-    href:           "releases"
+  - name:           "Projects"
+    href:           "projects"
 
 sass:
   style:            :compressed
