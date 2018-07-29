@@ -239,10 +239,9 @@ pre code {
 
 .fa {
     margin-left: -2vw;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-right: 6vw;
     @media (min-width: 38em) {
-        font-size: 2vw;
         margin-left: 0;
         margin-right: 1.4vw;
     }
@@ -324,10 +323,14 @@ tbody tr:nth-child(odd) th {
 
     .social {
         margin-left: 5vw;
+        margin-bottom: 0vh;
         height: auto;
         width: 100%;
         display: inline-block;
         align-self: flex-end;
+        a {
+            color: #deddee;
+        }
     }
 
     @media (min-width: 38em) {
@@ -339,6 +342,7 @@ tbody tr:nth-child(odd) th {
             position: absolute;
             bottom: 0;
             margin-left: 2vw;
+            margin-bottom: 1vh;
             a {
                 padding: 0;
                 margin-left: 0;
