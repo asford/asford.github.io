@@ -1,0 +1,22 @@
+<div class="profile" style="background-image: url({{ site.background }});">
+    <ul class="social">
+        {% if site.email%}
+        <a type="button" href="mailto:{{ site.email}}">
+            <i class="fa fa-envelope"></i>
+        </a>
+        {% endif %}
+        {% if site.github %}
+        <a type="button" href="http://github.com/{{ site.github }}">
+            <i class="fa fa-code-fork"></i>
+        </a>
+        {% endif %} {% if site.twitter %}
+        <a type="button" href="http://twitter.com/{{ site.twitter }}">
+            <i class="fa fa-twitter"></i>
+        </a>
+        {% endif %} {% if site.linkedin %}
+        <a type="button" href="http://linkedin.com/in/{{ site.linkedin }}">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        {% endif %} 
+    </ul>
+</div>

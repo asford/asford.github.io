@@ -311,21 +311,24 @@ tbody tr:nth-child(odd) th {
   padding: .809em 0;
 }
 
+.landing {
+  .profile {
+    // Ensure that profile shows up on mobile.
+    display: flex;
+    min-height: 60vh;
+  }
+}
+
 .profile {
     padding: 2%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-
-    // Ensure that profile shows up on mobile.
-    display: flex;
-    min-height: 60vh;
+    background-position: bottom;
 
     .social {
         margin-left: 5vw;
         margin-bottom: 0vh;
         height: auto;
-        width: 100%;
         display: inline-block;
         align-self: flex-end;
         a {
@@ -351,7 +354,7 @@ tbody tr:nth-child(odd) th {
     }
 }
 
-.posts {
+.main {
     max-width: 38rem;
     padding: 1.4rem 0.8rem;
     margin-left: auto;
@@ -371,6 +374,7 @@ tbody tr:nth-child(odd) th {
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-start;
+        margin-top: 0;
 
         div {
           flex: 0 1 auto;

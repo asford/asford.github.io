@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% include profile.html %}
+
+<div class="main">
+
 {% include header.html %}
 
 <div class="content post">
@@ -15,3 +19,5 @@ layout: default
 {% if site.disqus_shortname %}
   {% include disqus_comments.html %}
 {% endif %}
+
+</div>
