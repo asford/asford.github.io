@@ -305,7 +305,8 @@ tbody tr:nth-child(odd) th {
 
 #avatar {
   display: block;
-  width: 20em;
+  max-width: 60vw;
+  max-height: 60vh;
   border-radius: 5%;
   margin: 0 auto;
   padding: .809em 0;
@@ -313,7 +314,7 @@ tbody tr:nth-child(odd) th {
 
 .landing {
   .profile {
-    // Ensure that profile shows up on mobile.
+    // Ensure that profile banner image shows up on mobile.
     display: flex;
     min-height: 60vh;
   }
