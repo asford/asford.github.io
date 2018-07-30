@@ -39,3 +39,7 @@ defaults:
 
 gems:
   - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
