@@ -4,4 +4,8 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-bundle exec jekyll serve
+trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
+
+bundle exec jekyll serve &
+browse http://localhost:4000/
+wait

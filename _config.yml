@@ -12,16 +12,17 @@ paginate:           5
 paginate_path:      "/page:num/"
 
 baseurl:            ""
-permalink:          :year/:month/:day/:title/
-
-markdown:           kramdown
+permalink:          :title/
 
 nav:
   - name:           "About"
-    href:           "about"
+    href:           "/about"
+  - name:           "Scratch"
+    href:           "/scratch"
 
-sass:
-  style:            :compressed
+collections:
+  scratch:
+    output: true
 
 defaults:
   -
@@ -36,6 +37,17 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "scratch"
+    values:
+      layout:       "page"
+
+markdown:           kramdown
+
+sass:
+  style:            :compressed
 
 gems:
   - jekyll-paginate
