@@ -5,6 +5,7 @@ author:             "asford"
 email:              "a.sewall.ford+github.io@gmail.com"
 github:             "asford"
 linkedin:           "asewallford"
+instagram:          "a.sewall.ford"
 
 background:         "/resources/20160223_102437_E-M5_2230352.jpg"
 
@@ -17,8 +18,8 @@ permalink:          :title/
 nav:
   - name:           "About"
     href:           "/about"
-  - name:           "Scratch"
-    href:           "/scratch"
+  # - name:           "Scratch"
+  #   href:           "/scratch"
 
 collections:
   scratch:
