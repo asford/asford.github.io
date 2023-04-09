@@ -3,6 +3,7 @@
 
 $open-sans: 'Open Sans', sans-serif;
 $source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$profile-width: 40%;
 
 * {
     -webkit-box-sizing: border-box;
@@ -339,7 +340,7 @@ tbody tr:nth-child(odd) th {
 
     @media (min-width: 38em) {
         position: fixed;
-        width: 40%;
+        width: $profile-width;
         height: 100%;
         padding: 0;
         .social {
@@ -363,9 +364,8 @@ tbody tr:nth-child(odd) th {
     overflow: auto;
     @media (min-width: 38rem) {
         margin-top: 0;
-        margin-left: 20%;
+        margin-left: $profile-width;
         padding: 3%;
-        min-width: 60%;
         height: 100vh;
     }
 }
