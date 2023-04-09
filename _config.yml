@@ -18,6 +18,8 @@ permalink:          :title/
 nav:
   - name:           "About"
     href:           "/about"
+  - name:           "Soulful Fibre"
+    href:           "/soulful_fibre"
   # - name:           "Scratch"
   #   href:           "/scratch"
 
